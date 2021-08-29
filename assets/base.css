@@ -967,6 +967,10 @@ summary::-webkit-details-marker {
     width: calc(33.33% - 1rem * 2 / 3);
   }
 
+  .grid--2-col-desktop {
+    max-width: 1200px;
+  }
+
   .grid--2-col-desktop .grid__item {
     width: calc(50% - 1rem / 2);
   }
