@@ -520,6 +520,12 @@ a.product__text {
   overflow: auto;
 }
 
+.product-media-modal__content > img {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .product-media-modal__content > *:not(.active),
 .product__media-list .deferred-media {
   display: none;
