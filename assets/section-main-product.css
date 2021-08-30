@@ -521,9 +521,10 @@ a.product__text {
 }
 
 .product-media-modal__content > img {
-  max-width: 1200px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 
 .product-media-modal__content > *:not(.active),
