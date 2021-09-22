@@ -33,6 +33,18 @@
         },
         "colors_background_2": {
           "label": "Baggrund 2"
+        },
+        "gradient_accent_1": {
+          "label": "Markering 1 – graduering"
+        },
+        "gradient_accent_2": {
+          "label": "Markering 2 – graduering"
+        },
+        "gradient_background_1": {
+          "label": "Baggrund 1 – graduering"
+        },
+        "gradient_background_2": {
+          "label": "Baggrund 2 – graduering"
         }
       }
     },
@@ -191,6 +203,25 @@
           "options__2": {
             "label": "1600 px"
           }
+        }
+      }
+    },
+    "search_input": {
+      "name": "Søgeinput",
+      "settings": {
+        "header": {
+          "content": "Produktforslag"
+        },
+        "predictive_search_enabled": {
+          "label": "Aktivér produktforslag"
+        },
+        "predictive_search_show_vendor": {
+          "label": "Vis forhandler",
+          "info": "Synlig når produktforslag aktiveret."
+        },
+        "predictive_search_show_price": {
+          "label": "Vis pris",
+          "info": "Synlig når produktforslag aktiveret."
         }
       }
     }
@@ -536,6 +567,10 @@
         },
         "show_image_outline": {
           "label": "Vis billedramme"
+        },
+        "show_rating": {
+          "label": "Vis produktbedømmelser",
+          "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
         }
       },
       "presets": {
@@ -663,6 +698,24 @@
         "enable_sticky_header": {
           "label": "Aktivér fastgjort sidehoved",
           "info": "Sidehovedet vises på skærmen, når kunderne ruller op."
+        },
+        "color_scheme": {
+          "options__1": {
+            "label": "Markering 1"
+          },
+          "options__2": {
+            "label": "Markering 2"
+          },
+          "options__3": {
+            "label": "Baggrund 1"
+          },
+          "options__4": {
+            "label": "Baggrund 2"
+          },
+          "options__5": {
+            "label": "Omvendt"
+          },
+          "label": "Farveskema"
         }
       }
     },
@@ -739,7 +792,7 @@
               "options__2": {
                 "label": "Stor"
               },
-              "label": "Størrelse for overskrift"
+              "label": "Skriftstørrelse til overskrifter"
             }
           }
         },
@@ -874,12 +927,15 @@
                 "label": "Tilpas til billede"
               },
               "options__2": {
-                "label": "Medium"
+                "label": "Lille"
               },
               "options__3": {
-                "label": "Stor"
+                "label": "Medium"
               },
-              "info": "Brug et billede med et højde-bredde-forhold på 16:9 for at opnå det bedste resultat. [Få mere at vide](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+              "info": "Brug et billede med et højde-bredde-forhold på 16:9 for at opnå det bedste resultat. [Få mere at vide](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+              "options__4": {
+                "label": "Stor"
+              }
             }
           }
         },
@@ -934,6 +990,31 @@
         },
         "show_author": {
           "label": "Vis forfatter"
+        },
+        "layout": {
+          "label": "Layout på store skærme",
+          "options__1": {
+            "label": "Gitter"
+          },
+          "options__2": {
+            "label": "Kollage"
+          }
+        },
+        "image_height": {
+          "label": "Højde på udvalgt billede",
+          "options__1": {
+            "label": "Tilpas til billede"
+          },
+          "options__2": {
+            "label": "Lille"
+          },
+          "options__3": {
+            "label": "Medium"
+          },
+          "options__4": {
+            "label": "Stor"
+          },
+          "info": "Brug et billede med et højde-bredde-forhold på 2:3 for at opnå det bedste resultat. [Få mere at vide](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       },
       "blocks": {
@@ -1047,6 +1128,10 @@
         },
         "collapse_on_larger_devices": {
           "label": "Skjul på større skærme"
+        },
+        "show_rating": {
+          "label": "Vis produktbedømmelser",
+          "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
         }
       }
     },
@@ -1357,6 +1442,14 @@
               "info": "Tilføj appkodestykker eller anden Liquid-kode for at oprette avancerede tilpasninger."
             }
           }
+        },
+        "rating": {
+          "name": "Produktvurdering",
+          "settings": {
+            "paragraph": {
+              "content": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
+            }
+          }
         }
       },
       "settings": {
@@ -1413,6 +1506,10 @@
         },
         "show_image_outline": {
           "label": "Vis billedramme"
+        },
+        "show_rating": {
+          "label": "Vis produktbedømmelser",
+          "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
         }
       }
     },
@@ -1606,6 +1703,10 @@
         },
         "show_image_outline": {
           "label": "Vis billedramme"
+        },
+        "show_rating": {
+          "label": "Vis produktbedømmelser",
+          "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
         }
       }
     },
@@ -1802,6 +1903,14 @@
               "label": "Tilpasset Liquid"
             }
           }
+        },
+        "rating": {
+          "name": "Produktbedømmelser",
+          "settings": {
+            "paragraph": {
+              "content": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
+            }
+          }
         }
       },
       "settings": {
@@ -1817,6 +1926,9 @@
         },
         "enable_video_looping": {
           "label": "Aktivér looping af videoer"
+        },
+        "hide_variants": {
+          "label": "Skjul medier for ikke-valgte varianter på computer"
         }
       },
       "presets": {

@@ -33,6 +33,18 @@
         },
         "colors_background_2": {
           "label": "Nền 2"
+        },
+        "gradient_accent_1": {
+          "label": "Hiệu ứng chuyển màu của Điểm nhấn 1"
+        },
+        "gradient_accent_2": {
+          "label": "Hiệu ứng chuyển màu của Điểm nhấn 2"
+        },
+        "gradient_background_1": {
+          "label": "Hiệu ứng chuyển màu của Nền 1"
+        },
+        "gradient_background_2": {
+          "label": "Hiệu ứng chuyển màu của Nền 2"
         }
       }
     },
@@ -191,6 +203,25 @@
           "options__2": {
             "label": "1600 px"
           }
+        }
+      }
+    },
+    "search_input": {
+      "name": "Tìm thông tin đầu vào",
+      "settings": {
+        "header": {
+          "content": "Gợi ý sản phẩm"
+        },
+        "predictive_search_enabled": {
+          "label": "Bật gợi ý sản phẩm"
+        },
+        "predictive_search_show_vendor": {
+          "label": "Hiển thị nhà cung cấp",
+          "info": "Hiển thị khi bật gợi ý sản phẩm."
+        },
+        "predictive_search_show_price": {
+          "label": "Hiển thị giá",
+          "info": "Hiển thị khi bật gợi ý sản phẩm."
         }
       }
     }
@@ -536,6 +567,10 @@
         },
         "show_image_outline": {
           "label": "Hiển thị đường viền hình ảnh"
+        },
+        "show_rating": {
+          "label": "Hiển thị thứ hạng sản phẩm",
+          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
         }
       },
       "presets": {
@@ -663,6 +698,24 @@
         "enable_sticky_header": {
           "label": "Bật đầu trang dính",
           "info": "Đầu trang hiển thị trên màn hình khi khách hàng cuộn lên."
+        },
+        "color_scheme": {
+          "options__1": {
+            "label": "Điểm nhấn 1"
+          },
+          "options__2": {
+            "label": "Điểm nhấn 2"
+          },
+          "options__3": {
+            "label": "Nền 1"
+          },
+          "options__4": {
+            "label": "Nền 2"
+          },
+          "options__5": {
+            "label": "Nghịch đảo"
+          },
+          "label": "Bảng màu"
         }
       }
     },
@@ -739,7 +792,7 @@
               "options__2": {
                 "label": "Lớn"
               },
-              "label": "Cỡ tiêu đề"
+              "label": "Cỡ phông chữ tiêu đề"
             }
           }
         },
@@ -874,12 +927,15 @@
                 "label": "Điều chỉnh theo hình ảnh"
               },
               "options__2": {
-                "label": "Trung bình"
+                "label": "Nhỏ"
               },
               "options__3": {
-                "label": "Lớn"
+                "label": "Trung bình"
               },
-              "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+              "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+              "options__4": {
+                "label": "Lớn"
+              }
             }
           }
         },
@@ -934,6 +990,31 @@
         },
         "show_author": {
           "label": "Hiển thị tác giả"
+        },
+        "layout": {
+          "label": "Bố cục trên màn hình lớn",
+          "options__1": {
+            "label": "Lưới"
+          },
+          "options__2": {
+            "label": "Ghép"
+          }
+        },
+        "image_height": {
+          "label": "Chiều cao hình ảnh nổi bật",
+          "options__1": {
+            "label": "Điều chỉnh theo hình ảnh"
+          },
+          "options__2": {
+            "label": "Nhỏ"
+          },
+          "options__3": {
+            "label": "Trung bình"
+          },
+          "options__4": {
+            "label": "Lớn"
+          },
+          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 2:3. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       },
       "blocks": {
@@ -1047,6 +1128,10 @@
         },
         "collapse_on_larger_devices": {
           "label": "Thu nhỏ trên màn hình lớn hơn"
+        },
+        "show_rating": {
+          "label": "Hiển thị thứ hạng sản phẩm",
+          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
         }
       }
     },
@@ -1357,6 +1442,14 @@
               "info": "Thêm đoạn mã ứng dụng hoặc mã Liquid khác để tạo các tùy chỉnh nâng cao."
             }
           }
+        },
+        "rating": {
+          "name": "Thứ hạng sản phẩm",
+          "settings": {
+            "paragraph": {
+              "content": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
+            }
+          }
         }
       },
       "settings": {
@@ -1413,6 +1506,10 @@
         },
         "show_image_outline": {
           "label": "Hiển thị đường viền hình ảnh"
+        },
+        "show_rating": {
+          "label": "Hiển thị thứ hạng sản phẩm",
+          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
         }
       }
     },
@@ -1606,6 +1703,10 @@
         },
         "show_image_outline": {
           "label": "Hiển thị đường viền hình ảnh"
+        },
+        "show_rating": {
+          "label": "Hiển thị thứ hạng sản phẩm",
+          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
         }
       }
     },
@@ -1802,6 +1903,14 @@
               "label": "Liquid tùy chỉnh"
             }
           }
+        },
+        "rating": {
+          "name": "Thứ hạng sản phẩm",
+          "settings": {
+            "paragraph": {
+              "content": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
+            }
+          }
         }
       },
       "settings": {
@@ -1817,6 +1926,9 @@
         },
         "enable_video_looping": {
           "label": "Bật vòng lặp video"
+        },
+        "hide_variants": {
+          "label": "Ẩn phương tiện của các mẫu mã không được chọn trên máy tính để bàn"
         }
       },
       "presets": {

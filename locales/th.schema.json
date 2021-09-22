@@ -33,6 +33,18 @@
         },
         "colors_background_2": {
           "label": "พื้นหลัง 2"
+        },
+        "gradient_accent_1": {
+          "label": "การเน้น 1 แบบไล่ระดับสี"
+        },
+        "gradient_accent_2": {
+          "label": "การเน้น 2 แบบไล่ระดับสี"
+        },
+        "gradient_background_1": {
+          "label": "พื้นหลัง 1 แบบไล่ระดับสี"
+        },
+        "gradient_background_2": {
+          "label": "พื้นหลัง 2 แบบไล่ระดับสี"
         }
       }
     },
@@ -191,6 +203,25 @@
           "options__2": {
             "label": "1600px"
           }
+        }
+      }
+    },
+    "search_input": {
+      "name": "ค้นหาอินพุต",
+      "settings": {
+        "header": {
+          "content": "คำแนะนำสินค้า"
+        },
+        "predictive_search_enabled": {
+          "label": "เปิดใช้งานคำแนะนำสินค้า"
+        },
+        "predictive_search_show_vendor": {
+          "label": "แสดงผู้ขาย",
+          "info": "จะปรากฏให้เห็นเมื่อเปิดใช้คำแนะนำสินค้า"
+        },
+        "predictive_search_show_price": {
+          "label": "แสดงราคา",
+          "info": "จะปรากฏให้เห็นเมื่อเปิดใช้คำแนะนำสินค้า"
         }
       }
     }
@@ -541,6 +572,10 @@
         },
         "show_image_outline": {
           "label": "แสดงขอบรูปภาพ"
+        },
+        "show_rating": {
+          "label": "แสดงคะแนนของสินค้า",
+          "info": "หากต้องการแสดงคะแนน ให้เพิ่มแอปการให้คะแนนสินค้า [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
         }
       },
       "presets": {
@@ -669,6 +704,24 @@
         "enable_sticky_header": {
           "label": "เปิดใช้งานส่วนหัวแบบยึดตำแหน่ง",
           "info": "แสดงส่วนหัวบนหน้าจอเมื่อลูกค้าเลื่อนหน้าจอขึ้น"
+        },
+        "color_scheme": {
+          "options__1": {
+            "label": "การเน้น 1"
+          },
+          "options__2": {
+            "label": "การเน้น 2"
+          },
+          "options__3": {
+            "label": "พื้นหลัง 1"
+          },
+          "options__4": {
+            "label": "พื้นหลัง 2"
+          },
+          "options__5": {
+            "label": "ตรงกันข้าม"
+          },
+          "label": "รูปแบบสี"
         }
       }
     },
@@ -744,7 +797,7 @@
               "options__2": {
                 "label": "ใหญ่"
               },
-              "label": "ขนาดของหัวเรื่อง"
+              "label": "ขนาดแบบอักษรของหัวเรื่อง"
             }
           },
           "name": "หัวเรื่อง"
@@ -881,12 +934,15 @@
                 "label": "ปรับตามรูปภาพ"
               },
               "options__2": {
-                "label": "ปานกลาง"
+                "label": "เล็ก"
               },
               "options__3": {
-                "label": "ใหญ่"
+                "label": "ปานกลาง"
               },
-              "info": "ใช้รูปภาพที่มีอัตราส่วนภาพ 16:9 เพื่อผลลัพธ์ที่ดีที่สุด [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+              "info": "ใช้รูปภาพที่มีอัตราส่วนภาพ 16:9 เพื่อผลลัพธ์ที่ดีที่สุด [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+              "options__4": {
+                "label": "ใหญ่"
+              }
             }
           },
           "name": "รูปภาพที่แสดง"
@@ -942,6 +998,31 @@
         },
         "show_author": {
           "label": "แสดงผู้เขียน"
+        },
+        "layout": {
+          "label": "เลย์เอาต์บนหน้าจอใหญ่",
+          "options__1": {
+            "label": "กริด"
+          },
+          "options__2": {
+            "label": "คอลลาจ"
+          }
+        },
+        "image_height": {
+          "label": "ความสูงของรูปภาพที่แสดง",
+          "options__1": {
+            "label": "ปรับตามรูปภาพ"
+          },
+          "options__2": {
+            "label": "เล็ก"
+          },
+          "options__3": {
+            "label": "ปานกลาง"
+          },
+          "options__4": {
+            "label": "ใหญ่"
+          },
+          "info": "ใช้รูปภาพที่มีอัตราส่วนภาพ 2:3 เพื่อผลลัพธ์ที่ดีที่สุด [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       },
       "blocks": {
@@ -1058,6 +1139,10 @@
         },
         "collapse_on_larger_devices": {
           "label": "ย่อเมื่อแสดงบนหน้าจอที่ใหญ่กว่า"
+        },
+        "show_rating": {
+          "label": "แสดงคะแนนของสินค้า",
+          "info": "หากต้องการแสดงคะแนน ให้เพิ่มแอปการให้คะแนนสินค้า [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
         }
       }
     },
@@ -1368,6 +1453,14 @@
               "info": "เพิ่มส่วนย่อยของแอปหรือโค้ด Liquid อื่นๆ เพื่อสร้างการปรับแต่งขั้นสูง"
             }
           }
+        },
+        "rating": {
+          "name": "คะแนนของสินค้า",
+          "settings": {
+            "paragraph": {
+              "content": "หากต้องการแสดงคะแนน ให้เพิ่มแอปการให้คะแนนสินค้า [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
+            }
+          }
         }
       },
       "settings": {
@@ -1424,6 +1517,10 @@
         },
         "show_image_outline": {
           "label": "แสดงขอบรูปภาพ"
+        },
+        "show_rating": {
+          "label": "แสดงคะแนนของสินค้า",
+          "info": "หากต้องการแสดงคะแนน ให้เพิ่มแอปการให้คะแนนสินค้า [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
         }
       }
     },
@@ -1619,6 +1716,10 @@
         },
         "show_image_outline": {
           "label": "แสดงขอบรูปภาพ"
+        },
+        "show_rating": {
+          "label": "แสดงคะแนนของสินค้า",
+          "info": "หากต้องการแสดงคะแนน ให้เพิ่มแอปการให้คะแนนสินค้า [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
         }
       }
     },
@@ -1816,6 +1917,14 @@
               "label": "ปรับแต่ง Liquid"
             }
           }
+        },
+        "rating": {
+          "name": "คะแนนของสินค้า",
+          "settings": {
+            "paragraph": {
+              "content": "หากต้องการแสดงคะแนน ให้เพิ่มแอปการให้คะแนนสินค้า [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
+            }
+          }
         }
       },
       "settings": {
@@ -1831,6 +1940,9 @@
         },
         "enable_video_looping": {
           "label": "เปิดใช้งานการวนซ้ำวิดีโอ"
+        },
+        "hide_variants": {
+          "label": "ซ่อนสื่อของตัวเลือกสินค้าที่ไม่ได้เลือกบนเดสก์ท็อป"
         }
       },
       "presets": {

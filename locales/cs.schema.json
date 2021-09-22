@@ -33,6 +33,18 @@
         },
         "colors_background_2": {
           "label": "Pozadí 2"
+        },
+        "gradient_accent_1": {
+          "label": "Přechod 1 zvýraznění"
+        },
+        "gradient_accent_2": {
+          "label": "Přechod 2 zvýraznění"
+        },
+        "gradient_background_1": {
+          "label": "Přechod 1 pozadí"
+        },
+        "gradient_background_2": {
+          "label": "Přechod 2 pozadí"
         }
       }
     },
@@ -191,6 +203,25 @@
           "options__2": {
             "label": "1 600 px"
           }
+        }
+      }
+    },
+    "search_input": {
+      "name": "Vstup hledání",
+      "settings": {
+        "header": {
+          "content": "Návrhy produktů"
+        },
+        "predictive_search_enabled": {
+          "label": "Povolit návrhy produktů"
+        },
+        "predictive_search_show_vendor": {
+          "label": "Zobrazit dodavatele",
+          "info": "Zobrazuje se v případě, že jsou povoleny návrhy produktů."
+        },
+        "predictive_search_show_price": {
+          "label": "Zobrazit cenu",
+          "info": "Zobrazuje se v případě, že jsou povoleny návrhy produktů."
         }
       }
     }
@@ -536,6 +567,10 @@
         },
         "show_image_outline": {
           "label": "Zobrazit ohraničení obrázku"
+        },
+        "show_rating": {
+          "label": "Zobrazit hodnocení produktů",
+          "info": "Pokud chcete zobrazovat hodnocení, přidejte si aplikaci pro hodnocení produktů. [Zjistit více](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
         }
       },
       "presets": {
@@ -663,6 +698,24 @@
         "enable_sticky_header": {
           "label": "Zobrazit plovoucí záhlaví",
           "info": "Záhlaví zůstane zobrazené na obrazovce, přestože zákazníci skrolují dál."
+        },
+        "color_scheme": {
+          "options__1": {
+            "label": "Zvýraznění 1"
+          },
+          "options__2": {
+            "label": "Zvýraznění 2"
+          },
+          "options__3": {
+            "label": "Pozadí 1"
+          },
+          "options__4": {
+            "label": "Pozadí 2"
+          },
+          "options__5": {
+            "label": "Inverze"
+          },
+          "label": "Barevné schéma"
         }
       }
     },
@@ -739,7 +792,7 @@
               "options__2": {
                 "label": "Velká"
               },
-              "label": "Velikost nadpisu"
+              "label": "Velikost písma nadpisu"
             }
           }
         },
@@ -875,9 +928,12 @@
                 "label": "Přizpůsobení obrázku"
               },
               "options__2": {
-                "label": "Střední"
+                "label": "Malá"
               },
               "options__3": {
+                "label": "Střední"
+              },
+              "options__4": {
                 "label": "Velká"
               }
             }
@@ -934,6 +990,31 @@
         },
         "show_author": {
           "label": "Zobrazit autora"
+        },
+        "layout": {
+          "label": "Rozvržení na velkých obrazovkách",
+          "options__1": {
+            "label": "Mřížka"
+          },
+          "options__2": {
+            "label": "Koláž"
+          }
+        },
+        "image_height": {
+          "label": "Výška propagovaného obrázku",
+          "info": "Nejlepších výsledků dosáhnete pomocí obrázku s poměrem stran 2:3. [Zjistit více](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "options__1": {
+            "label": "Přizpůsobení obrázku"
+          },
+          "options__2": {
+            "label": "Malá"
+          },
+          "options__3": {
+            "label": "Střední"
+          },
+          "options__4": {
+            "label": "Velká"
+          }
         }
       },
       "blocks": {
@@ -1047,6 +1128,10 @@
         },
         "collapse_on_larger_devices": {
           "label": "Sbalit na větších obrazovkách"
+        },
+        "show_rating": {
+          "label": "Zobrazit hodnocení produktů",
+          "info": "Pokud chcete zobrazovat hodnocení, přidejte si aplikaci pro hodnocení produktů. [Zjistit více](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
         }
       }
     },
@@ -1357,6 +1442,14 @@
               "info": "Přidejte fragmenty aplikací nebo jiný kód Liquidu a vytvořte pokročilá přizpůsobení."
             }
           }
+        },
+        "rating": {
+          "name": "Hodnocení produktů",
+          "settings": {
+            "paragraph": {
+              "content": "Pokud chcete zobrazovat hodnocení, přidejte si aplikaci pro hodnocení produktů. [Zjistit více](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
+            }
+          }
         }
       },
       "settings": {
@@ -1413,6 +1506,10 @@
         },
         "show_image_outline": {
           "label": "Zobrazit ohraničení obrázku"
+        },
+        "show_rating": {
+          "label": "Zobrazit hodnocení produktů",
+          "info": "Pokud chcete zobrazovat hodnocení, přidejte si aplikaci pro hodnocení produktů. [Zjistit více](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
         }
       }
     },
@@ -1606,6 +1703,10 @@
         },
         "show_image_outline": {
           "label": "Zobrazit ohraničení obrázku"
+        },
+        "show_rating": {
+          "label": "Zobrazit hodnocení produktů",
+          "info": "Pokud chcete zobrazovat hodnocení, přidejte si aplikaci pro hodnocení produktů. [Zjistit více](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
         }
       }
     },
@@ -1802,6 +1903,14 @@
               "label": "Vlastní kód Liquidu"
             }
           }
+        },
+        "rating": {
+          "name": "Hodnocení produktů",
+          "settings": {
+            "paragraph": {
+              "content": "Pokud chcete zobrazovat hodnocení, přidejte si aplikaci pro hodnocení produktů. [Zjistit více](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
+            }
+          }
         }
       },
       "settings": {
@@ -1817,6 +1926,9 @@
         },
         "enable_video_looping": {
           "label": "Povolit smyčky videa"
+        },
+        "hide_variants": {
+          "label": "Skrýt v počítači multimédia nevybraných variant"
         }
       },
       "presets": {
