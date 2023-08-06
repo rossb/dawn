@@ -1,0 +1,16 @@
+{
+  "name": "custom-dawn-theme",
+  "version": "1.0.0",
+  "description": "Custom version of Shopify/dawn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "shopify theme dev --store my-shop.myshopify.com",
+    "push": "shopify theme push --store my-shop.myshopify.com",
+    "pull": "shopify theme pull --store my-shop.myshopify.com"
+  },
+  "author": "",
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  }
+}
